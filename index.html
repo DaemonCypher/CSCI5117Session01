@@ -7,6 +7,7 @@
     <title>My Website</title>
     <link rel="stylesheet" href="./style.css">
     <link rel="icon" href="./favicon.ico" type="image/x-icon">
+    <script type="text/javascript" src="guestbook.js"></script>
   </head>
   <body>
 
@@ -28,7 +29,7 @@
       
       <div id="guestbook"></div>
         <input type="text" id="name" name="name"/>
-        <button type="button" id="guestButton">Add Guest</button>
+        <button type="button" id="guestButton" onclick="addGuest()">Add Guest</button>
         <ul id="guest-list"></ul>
       </div>
     </main>
